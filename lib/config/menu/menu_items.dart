@@ -51,4 +51,10 @@ const appMenuItems = <MenuItem>[
     link: '/ui-controlls',
     icon: Icons.car_rental_outlined,
   ),
+  MenuItem(
+    title: 'Tutorial screen',
+    subtitle: 'Un tutorial de la app',
+    link: '/tutorial',
+    icon: Icons.help,
+  ),
 ];
