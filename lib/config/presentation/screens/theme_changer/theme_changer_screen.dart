@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:widgets_app/config/presentation/providers/theme_provider.dart';
-import 'package:widgets_app/config/theme/app_theme.dart';
 
 class ThemeChangerScreen extends ConsumerWidget {
   const ThemeChangerScreen({super.key});
@@ -27,7 +25,7 @@ class ThemeChangerScreen extends ConsumerWidget {
           )
         ],
       ),
-      body: _ThemeChangerView(),
+      body: const _ThemeChangerView(),
     );
   }
 }
